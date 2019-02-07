@@ -25,7 +25,7 @@ Instructions
 
 4. Load RStudio and set the work directory to your working directory using setwd("your work directory")
 
-5. Load the R script using source("runanalysis.txt")
+5. Load the R script using source("run_analysis.txt")
 
 6. Run the R script using runanalysis() and after executing the function, you will see that merged_tidy_data.txt and calculated_tidy_data.txt would have been replaced with the newest outputs.
 
