@@ -13,7 +13,7 @@ as part of final assignment for Week4
 
 2. The Rscript submitted for the project, `run_analysis.R` contains all the code to perform the analyses described in the 5 steps as per the instructions given in the assignment. They can be launched by importing the file in RStudio and running the code with the run button found in the right hand titlebar of the Rscript console.
 
-3. The output of the 5th step which is called `calculated_tidy_data.txt` and ', and uploaded in the course project's form.
+3. The output of the 5th step which is called `calculated_tidy_data.txt` and has been uploaded in the course project's form.
 
 Instructions
 
