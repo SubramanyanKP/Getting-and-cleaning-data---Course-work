@@ -21,9 +21,9 @@ Instructions
 
 2. Download the data set, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-3. Unzip the data set into your work directory and you should see a folder named UCI HAR Dataset in your work directory
+3. Unzip the dataset into your working directory and ensure that you are able to see a folder named UCI HAR Dataset in your working directory
 
-4. Load RStudio and set your working directory using setwd("your work directory")
+4. Load RStudio and set the work directory to your working directory using setwd("your work directory")
 
 5. Load the R script using source("runanalysis.txt")
 
