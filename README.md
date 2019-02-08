@@ -27,7 +27,7 @@ Instructions
 
 5. Load the R script using source("run_analysis.txt")
 
-6. Run the R script using runanalysis() and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
+6. Run the R script using runanalysis( ) and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
 
 Note : The dependancy here is that the R script assumes you have 'data.table' installed using install.packages("data.table")
  Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for additional information on the data set
