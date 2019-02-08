@@ -15,6 +15,8 @@ as part of final assignment for Week4
 
 3. The output of the 5th step , `calculatedtidydata.txt` has been uploaded in the course project's form.
 
+4. Use the following command to load the dataset into R: read.table("calculatedtidydata.txt", header = TRUE)
+
 Instructions
 
 1. Read and understand the CodeBook.md submitted in the repository
@@ -25,9 +27,11 @@ Instructions
 
 4. Load RStudio and set the work directory to your working directory using setwd("your work directory") in the R console.
 
-5. Load the R script using source("run_analysis.txt")
+5. Load the R script using source run_analysis.R
 
-6. Run the R script using runanalysis( ) and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
+6. Run the R script using my_analysis( ) and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
+
+7. Use the command to load the dataset into R: read.table("calculatedtidydata.txt", header = TRUE)
 
 Note : The dependancy here is that the R script assumes you have 'data.table' installed using install.packages("data.table")
  Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for additional information on the data set
