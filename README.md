@@ -31,7 +31,11 @@ Instructions
 
 6. Run the R script using my_analysis( ) and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
 
+> my_analysis( )
+
 7. Use the command to load the dataset into R: read.table("calculatedtidydata.txt", header = TRUE)
+
+> read.table("calculatedtidydata.txt", header = TRUE)
 
 Note : The dependancy here is that the R script assumes you have 'data.table' installed using install.packages("data.table")
  Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for additional information on the data set
