@@ -13,21 +13,21 @@ as part of final assignment for Week4
 
 2. The Rscript submitted for the project, `run_analysis.R` contains all the code to perform the analyses described in the 5 steps as per the instructions given in the assignment. They can be launched by importing the file in RStudio and running the code with the run button found in the right hand titlebar of the Rscript console.
 
-3. The output of the 5th step which is called `calculated_tidy_data.txt` and has been uploaded in the course project's form.
+3. The output of the 5th step , `calculatedtidydata.txt` has been uploaded in the course project's form.
 
 Instructions
 
-1. Checkout the code using the CodeBook.md submitted in the repository
+1. Read and understand the CodeBook.md submitted in the repository
 
-2. Download the data set, https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Download the data set, [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 3. Unzip the dataset into your working directory and ensure that you are able to see a folder named UCI HAR Dataset in your working directory
 
-4. Load RStudio and set the work directory to your working directory using setwd("your work directory")
+4. Load RStudio and set the work directory to your working directory using setwd("your work directory") in the R console.
 
 5. Load the R script using source("run_analysis.txt")
 
-6. Run the R script using runanalysis() and after executing the function, you will see that merged_tidy_data.txt and calculated_tidy_data.txt would have been replaced with the newest outputs.
+6. Run the R script using runanalysis() and after executing the function, you will see that mergedtidydata.txt and calculatedtidydata.txt would have been replaced with the newest outputs.
 
 Note : The dependancy here is that the R script assumes you have 'data.table' installed using install.packages("data.table")
  Please refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for additional information on the data set
