@@ -6,9 +6,9 @@ This code book includes information about the source data, the transformations p
 Coding Details :
 ----------------
 
-The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Prof.Jeff Leek. The assignment involves working with the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing tidy data representation of the source data. List of the tasks performed to arrive at the outputs are enlisted below.
+The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Prof.Jeff Leek. The assignment involves working with the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing a tidy data representation of the source data. A Detailed list of the tasks performed to arrive at the tidy data are enlisted as below.
 
-1. Download the data set zip file as mentioned in the discription above
+1. Download the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) file as mentioned in the discription above
 2. Unzip the data set into the chosen working directory
 3. Load test and training datasets into the respective test/training data frames
 4. Load the source variable names for test and training data sets
