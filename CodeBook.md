@@ -1,31 +1,31 @@
-Code Book
-=========
+Code Book :
+===========
 
-This code book includes information about the source data, the transformations performed after collecting the data and some information about the variables of the resulting data sets.
+This code book includes information about the source data, the transformations performed post collection of the data and some information about the variables of the resulting data sets.
 
-Study Design
-------------
+Coding Details :
+----------------
 
-The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Jeff Leek. The assignment involved working with the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing tidy data representation of the source data. Below is a list of the operations done to achieve the outputs.
+The source data was collected from the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) to complete an assignment for a Coursera course named Getting and Cleaning Data instructed by Prof.Jeff Leek. The assignment involves working with the [data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and producing tidy data representation of the source data. List of the tasks performed to arrive at the outputs are enlisted below.
 
-1. Downloaded the data set
-2. Unzipped the data set into my chosen working directory
-3. Loaded test and training data sets into data frames
-4. Loaded source variable names for test and training data sets
-5. Loaded activity labels
-6. Combined test and training data frames using rbind
-7. Paired down the data frames to only include the mean and standard deviation variables
-8. Replaced activity IDs with the activity labels for readability
-9. Combined the data frames to produce one data frame containing the subjects, measurements and activities
-10. Produced "merged_tidy_data.txt" with the combined data frame as the first expected output
-11. Created another data set using the data.table library to easily group the tidy data by subject and activity
-12. Then applied the mean and standard deviation calculations across the groups
-13. Produced "calculated_tidy_data.txt" as the second expected output
+1. Download the data set zip file as mentioned in the discription above
+2. Unzip the data set into the chosen working directory
+3. Load test and training datasets into the respective test/training data frames
+4. Load the source variable names for test and training data sets
+5. Load the  activity labels
+6. Combine the test and training data frames using rbind
+7. Pair down the data frames to include the mean and standard deviation variables
+8. Replace the activity IDs with the activity labels to render readability
+9. Combine the Test and Training data frames to produce one data frame containing the subjects, measurements and activities
+10. Arrive at the "mergedtidydata.txt" with the combined data frame as the first expected output
+11. Create one more data set using the data.table library of R thereby grouping the tidy data by subject and activity
+12. Apply the mean and standard deviation calculations across all the groups
+13. Arrive at the final "calculatedtidydata.txt" as the final required output to complete the assignment.
 
-Please refer to [run_analysis.R] (https://github.com/rwstang/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R) for implementation details.
+Please refer to run_analysis.R for implementation details.
 
-Variables
----------
+Variables Involved: 
+-------------------
 
 - subjectId: 1 to 30 each representing a participant in the study
 - activity: the activity that the subject was doing at the time of the measurement
