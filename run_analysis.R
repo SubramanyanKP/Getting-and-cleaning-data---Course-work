@@ -33,11 +33,11 @@ my_analysis <- function(){
   
   # merge data frames of different columns to form one data table
   my_data <- cbind(my_subject, X, my_activity)
-  write.table(my_data, "mergedtidydata.txt",row.names = FALSE)
+  write.table(my_data, "mergedtidydata.txt", row.names = FALSE)
   
   # create a dataset grouped by subject and activity after applying standard deviation and average calculations
   library(data.table)
   my_dataDT <- data.table(my_data)
   my_calculatedData <- my_dataDT[, lapply(.SD, mean), by=c("subjectId", "my_activity")]
-  write.table(my_calculatedData, "calculatedtidydata.txt",row.names = FALSE)
+  write.table(my_calculatedData, "calculatedtidydata.txt", row.names = FALSE)
 }
