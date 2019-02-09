@@ -33,7 +33,7 @@ Instructions
 
 > my_analysis( )
 
-7. Use the command to load the dataset into R: read.table("calculatedtidydata.txt", header = TRUE)
+7. Use the following command to load the dataset into R:
 
 > read.table("calculatedtidydata.txt", header = TRUE)
 
