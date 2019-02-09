@@ -10,7 +10,7 @@ my_analysis <- function(){
   X_testdata = read.table("UCI HAR Dataset/test/X_test.txt")
   Y_testdata = read.table("UCI HAR Dataset/test/Y_test.txt")
   
-  # load training data and read the contents to three varables from the test directory of UCI HAR Dataset
+  # load training data and read the contents to three varables from the train directory of UCI HAR Dataset
   my_subject_traindata = read.table("UCI HAR Dataset/train/subject_train.txt")
   X_traindata = read.table("UCI HAR Dataset/train/X_train.txt")
   Y_traindata = read.table("UCI HAR Dataset/train/Y_train.txt")
