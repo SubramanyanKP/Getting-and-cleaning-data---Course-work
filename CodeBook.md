@@ -10,11 +10,19 @@ The source data was collected from the [UCI Machine Learning Repository](http://
 
 1. Download the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) file as mentioned in the discription above
 2. Unzip the data set into the chosen working directory
-3. Load test and training datasets into the respective test/training data frames
-4. Load the source variable names for test and training data sets
-5. Load the  activity labels
-6. Combine the test and training data frames using rbind
-7. Pair down the data frames to include the mean and standard deviation variables
+3. Set your working directory to the respective path where the dataset has been unzipped.
+3. Load test and training data labels y_train.txt to b_train and y_test.txt to b_test
+4. Load the text files, features.txt to features and activity_labels.txt to activity_labels which is the  list all the features and the text file that Links the class labels with their activity name
+5. Load the text files that contain the datasets ie., subject_train.txt to subject_train  and subject_test.txt subject_test
+6. Now,Load the Test and Training Data Sets X_train.txt to a_train and X_test.txt to a_test
+
+Now the analysis will be done in two parts:
+     Part1 : Analysis of 70% of the Volunteer select for generating the training data
+     Part2 : Analysis of 30% of the Volunteer select for generating the test data 
+    
+Part1 : Analysis of 70% of the Volunteer select for generating the training data
+
+    1. Nominate the columnnames
 8. Replace the activity IDs with the activity labels to render readability
 9. Combine the Test and Training data frames to produce one data frame containing the subjects, measurements and activities
 10. Arrive at the "mergedtidydata.txt" with the combined data frame as the first expected output
